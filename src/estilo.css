@@ -1,0 +1,68 @@
+.caixa{
+    position: absolute !important;
+    align-self: center;
+}
+.paper{
+    margin-top: 12%;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 54%;
+    padding-bottom: 53%;
+    overflow: hidden;
+
+}
+@media screen and (min-width: 1921px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 40%;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1920px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 35%;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1600px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 30%;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1199px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 25%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 960px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 25%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px){
+    .caixa{
+        position: absolute !important;
+        align-self: center;
+        left: 15%;
+    }
+}
+
+
+        
